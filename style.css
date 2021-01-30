@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+body {
+ background:url('gambar1.jpg');
+ background-size:500px 600px;
+ background-repeat:no-repeat;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ min-height:90vh;
+ font-family: "Poppins", sans-serif;
+}
+#login {
+   color: white;
+   letter-spacing: 2px;
+}
+#form {
+   border: 3px solid magenta;
+   box-shadow: 0 0 20px magenta;
+   animation: uoni 4s infinite;
+   width: 300px;
+   height: 400px;
+   background:black;
+}
+@keyframes uoni {
+  0% {border:3px solid magenta; box-shadow:0 0 20px magenta;}
+  10% {border:3px solid purple; box-shadow:0 0 20px purple;}
+  20% {border:3px solid blue; box-shadow:0 0 20px blue;}
+  30% {border:3px solid aqua; box-shadow:0 0 20px aqua;}
+  40% {border:3px solid #0dfc91; box-shadow:0 0 20px #0dfc91;}
+  50% {border:3px solid #11fc0d; box-shadow:0 0 20px #11fc0d;}
+  60% {border:3px solid #99fc0d; box-shadow:0 0 20px #99fc0d;}
+  70% {border:3px solid #e8fc0d; box-shadow:0 0 20px #e8fc0d;}
+  80% {border:3px solid #fcd40d; box-shadow:0 0 20px #fcd40d;}
+  90% {border:3px solid #fca90d; box-shadow:0 0 20px #fca90d;}
+  100% {border:3px solid red; box-shadow:0 0 20px red;}
+  
+}
+input[type="text"] {
+  font-family: "Poppins", sans-serif;
+  width: 220px;
+  border: 2px solid white;
+  border-radius: 50px;
+  background: #060a1f;
+  color: white;
+}
+input[type="password"] {
+  font-family: "Poppins", sans-serif;
+  width: 220px;
+  border: 2px solid white;
+  border-radius: 50px;
+  background: #060a1f;
+  color: white;
+}
+
+input[type="text"]:hover {
+  border: 2px solid magenta;
+  box-shadow: 0 0 20px magenta;
+  animation: uoni 10s infinite;
+}
+input[type="password"]:hover {
+  border: 2px solid magenta;
+  box-shadow: 0 0 20px magenta;
+  animation: uoni 10s infinite;
+}
+
+input[type="text"]:active {
+  border: 2px solid magenta;
+  box-shadow: 0 0 20px magenta;
+  animation: uoni 10s infinite;
+}
+input[type="password"]:active {
+  border: 2px solid magenta;
+  box-shadow: 0 0 20px magenta;
+  animation: uoni 10s infinite;
+}
+#intro {
+   color: magenta;
+   text-shadow: 0 0 20px magenta;
+   display: flex;
+   align-items: center;
+   animation: uoni2 10s infinite;
+}
+@keyframes uoni2 {
+  0% {color:magenta; text-shadow:0 0 20px magenta;}
+  10% {color:purple; text-shadow:0 0 20px purple;}
+  20% {color:blue; text-shadow:0 0 20px blue;}
+  30% {color:aqua; text-shadow:0 0 20px aqua;}
+  40% {color:#0dfc91; text-shadow:0 0 20px #0dfc91;}
+  50% {color:#11fc0d; text-shadow:0 0 20px #11fc0d;}
+  60% {color:#99fc0d; text-shadow:0 0 20px #99fc0d;}
+  70% {color:#e8fc0d; text-shadow:0 0 20px #e8fc0d;}
+  80% {color:#fcd40d; text-shadow:0 0 20px #fcd40d;}
+  90% {color:#fca90d; text-shadow:0 0 20px #fca90d;}
+  100% {color:red; text-shadow:0 0 20px red;}
+  
+}
+#btn {
+  color: blue;
+  letter-spacing: 2px;
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  background-image: linear-gradient(90deg, #0162c8, #55e7fc);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+#btn:hover {
+  color: black;
+  background: #11cfff;
+  box-shadow: 0 0 10px white;
+  
+}
+#btn:active {
+  color: red;
+  background: white;
+  box-shadow: 0 0 10px white;
+  
+}
+#out {
+   color: grey;
+}
+span {
+  color: magenta;
+  text-shadow: 0 0 10px magenta;
+  animation: uoni2 10s infinite;
+}
